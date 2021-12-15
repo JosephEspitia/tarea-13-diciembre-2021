@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <link rel="stylesheet" href="./assets/style.css">
+
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -87,14 +89,14 @@
     </nav>
 
     <!-- Background image -->
-    <div>
+    <div class="container-fluid">
       <img
         src="./assets/img/banner.png"
         class="card-img-top"
         alt="banner"
       />
     </div>
-    <section class="d-flex bg-primary">
+    <section class="d-flex bg-primary ">
       <div class="col-md-6 text-light px-5">
         <h1>Video made to Fit!</h1>
         <p>
@@ -119,7 +121,7 @@
         <button type="button" class="btn btn-warning w-25 h-20">Services We Offer</button>
       </div>
       
-      <div class="col-md-6 bg-black d-flex gap-5">
+      <div class="contaier-fluid col-md-6 bg-black d-flex gap-5">
           <div class="">
         <img
         src="./assets/img/monkey.png"
@@ -147,7 +149,8 @@
       </div>
     </section>
 
-    <section class="d-flex">
+    <section class="d-flex ">
+      
       <div class="card  col-md-4">
         <div class="card-body">
           <h5 class="card-title">Sald Lending</h5>
@@ -203,13 +206,15 @@
       </div>
           
        <!-- video -->
-       <div class="ratio ratio-16x9">
+       <div class="ratio ratio-16x9 ">
         <iframe
+        
           src="https://www.youtube.com/embed/vlDzYIIOYmM"
           title="YouTube video"
           allowfullscreen
+          
         ></iframe>
-      </div>
+              </div>
       
         </div>
       </div>
@@ -219,12 +224,64 @@
       <button type="button" class="btn btn-danger">Check our entire portafolio</button>
     </section>
 
-    <div>
+        <div class="bg-image">
       <img
         src="./assets/img/clients.png"
-        class="card-img-top"
-        alt="Fissure in Sandstone"
+        class="w-100"
+        alt="clients"
       />
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.0)">
+        <div class="d-flex justify-content-start align-items-start h-100 m-clients">
+          <h1 class="text-white mb-0">Clientes</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid d-flex justify-content-center aling-items-center gap-5 bg-warning">
+      
+
+      <div class="card mt-5 mb-5" style="width: 18rem;">
+        <img
+          src="./assets/img/usuario1.jpg"
+          class="card-img-top"
+          alt="Sunset Over the Sea"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            "Some quick example text to build on the card title and make up the bulk of the
+            card's content".
+          </p>
+        </div>
+      </div>
+
+      <div class="card mt-5 mb-5" style="width: 18rem;">
+        <img
+          src="./assets/img/usuario2.jpg"
+          class="card-img-top"
+          alt="Sunset Over the Sea"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            "Some quick example text to build on the card title and make up the bulk of the
+            card's content".
+          </p>
+        </div>
+      </div>
+
+      <div class="card mt-5 mb-5" style="width: 18rem;">
+        <img
+          src="./assets/img/usuario3.jpg"
+          class="card-img-top"
+          alt="Sunset Over the Sea"
+        />
+        <div class="card-body">
+          <p class="card-text">
+            "Some quick example text to build on the card title and make up the bulk of the
+            card's content".
+          </p>
+        </div>
+      </div>
+
     </div>
 
     <!-- MDB -->
